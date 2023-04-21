@@ -1,0 +1,101 @@
+id,name,created_at,legal_person_id,status,registration_type,updated_at,document_number,company_role,first_seller_name,industria
+18402e50-0787-440c-a0d3-5998ae7a3b2d,Vincent Ltd,2023-10-12 14:54:06,6b000775-0df3-4ff2-8fc0-79cf4ce5d049,approved,pre_registered,2023-11-15 01:01:46,34203535258,buyer,Kevin Pitts,foods
+76e126c2-c9cb-4ed2-85bd-e76dc9037e4f,Gomez Inc,2023-01-14 17:05:11,12cedc69-0003-4247-8dd8-e1595752e3c0,approved,pre_registered,2023-03-15 03:23:38,79140047017,buyer,Brian Williams,foods
+51e3f9ca-a318-46c6-9825-7b364e1a5d33,Phillips and Sons,2023-09-27 07:30:10,142ce2a0-8b76-4869-8a90-6651d6508c3f,approved,pre_registered,2023-11-15 05:47:09,71644958840,buyer,Adam Stout,foods
+04b87ab4-c58c-4370-871d-538236b4961a,Williams LLC,2023-12-11 20:33:24,4fe86452-57fd-414a-9555-f302732c55c9,pending,pre_registered,2023-12-15 09:34:55,42873616409,buyer,Erika White,construction
+76e42b45-43c1-456e-9232-0893408f1de1,Williams Inc,2023-06-27 00:29:09,a6baf28b-e427-40b9-a68f-aeefa0c07f4d,pending,default,2023-10-08 09:15:59,85895331525,seller,Chelsea Allen,foods
+43c3b7b1-3ce2-4b94-83ca-a99b799e114a,Wheeler PLC,2023-09-08 04:11:36,0ddfd6c7-dc85-4be5-b609-5e000c012a5e,pending,default,2023-12-29 05:44:26,24683974890,buyer,Michael West,foods
+7a8c853f-14ef-4ef5-976a-199b4deaef99,"Carrillo, Ali and Chapman",2023-08-04 03:10:35,6d01c6fd-0878-4ab0-b4ce-2e1cab5fdc17,pending,default,2023-12-21 12:14:45,25747887627,seller,Judith Kline,construction
+7012d13d-473c-4be4-8b96-1c4773a4ff64,"Mendez, Clayton and Mclaughlin",2023-04-19 09:01:13,7f304f1b-c921-4703-ad70-6a3396935990,pending,default,2023-09-28 09:09:20,53295657129,seller,Christopher Gibson,foods
+b928ea07-9d22-4969-bfc8-b1ae374333d2,Moreno Ltd,2023-06-10 06:31:30,4ba23fe5-fc52-43dc-b6e4-11c83ca02f3e,pending,default,2023-11-13 01:26:51,38387044733,seller,Maria Guzman,foods
+996b23b8-a8c2-4bbb-94da-bbe2ecca51e2,Malone-Walter,2023-12-22 01:21:59,c07f29bd-f080-42da-99aa-d83cf6be50af,approved,default,2023-12-30 22:27:47,86420410430,buyer,Bryan Lloyd,construction
+649ce500-e5d4-4679-863e-e8fe615e0b39,"Gibbs, Roberts and Cherry",2023-07-10 14:45:27,f5dab566-a1a5-481f-925d-075513b857f4,pending,default,2023-12-19 01:36:58,19217617690,seller,Cory Jones,foods
+fa105871-5fd6-48ca-8770-4ba71613347b,Martinez-Wilson,2023-06-12 08:11:02,6dc32363-ab54-4470-bacd-39a2715dc0d7,approved,pre_registered,2023-09-15 07:12:04,33885375986,seller,Thomas Phillips,construction
+c09835ee-65ab-4ba9-95ab-ef6bdde39150,Welch Ltd,2023-12-09 16:46:05,83a35a4c-03da-43d0-94d8-fdcc0f0f9aa0,pending,default,2023-12-30 16:16:59,21161021599,seller,Betty Gomez,construction
+f8453b6f-7192-4eb6-a7cf-d65a3ed15919,"Dillon, Potter and Williams",2023-03-21 14:55:18,4a88083d-df80-4b89-87c4-b194cce329e6,approved,default,2023-07-22 02:57:36,31443001587,buyer,Kyle Lewis,foods
+55c82689-22d3-4b77-bbb9-2cc07c61168f,Howard-Mejia,2023-02-25 17:17:45,261ed02d-35ed-407e-8a25-665d8e17062c,approved,default,2023-09-06 19:37:20,69999169730,seller,Jacqueline Walls,foods
+61d48709-379f-4b8a-b0a7-0ee3f084500e,Walker-Marks,2023-01-24 08:22:18,4e383658-c08b-4a6d-97f3-c3f00e176eeb,approved,pre_registered,2023-10-29 07:55:38,84363927799,seller,Nicole Simpson,construction
+caafea0e-019b-4386-a079-602df91c14e5,Golden Inc,2023-05-10 13:25:51,2eef4cb6-13fe-4f9a-8b27-85140e2e153f,approved,default,2023-06-13 22:47:10,44230680388,buyer,William Murphy,construction
+f0cea28e-5f8c-4b36-9f0c-9347a6932785,Bush and Sons,2023-01-02 07:10:12,2bb4032d-30a9-47ba-b72e-5c6e8aad2e37,pending,pre_registered,2023-11-17 20:30:36,14956330581,seller,Michael Lewis,foods
+631b9185-53c3-4f51-acc4-ba292e6b3f02,Robertson Ltd,2023-07-02 02:09:38,18a92a5b-babd-4c86-8505-65ffe8d61029,pending,default,2023-08-18 18:10:35,62196797768,seller,Michael Lopez,construction
+ee50b8bf-6e9b-475a-a5bd-1ab46131d69a,Booth and Sons,2023-05-21 03:36:53,eff59359-2ce6-4887-b2da-a8754a48336b,pending,pre_registered,2023-09-27 14:11:42,66212369105,buyer,Michelle Black,foods
+6f0fa3b7-e3a4-45bb-ac7e-1c39e7469d32,"Dougherty, Wolfe and Castaneda",2023-06-17 03:56:08,18ceaa5f-ffc3-48ca-91e1-7111d932cc37,pending,default,2023-12-12 02:40:46,71811260477,buyer,Patrick Henderson,foods
+5ca3f16c-f0d4-4b93-b62b-57f1ae016c5a,Taylor-Anderson,2023-07-21 16:07:29,13c1b28b-a635-41c6-893d-65ae35644bbb,approved,default,2023-08-15 04:23:49,17129014269,buyer,Joshua Davenport DVM,foods
+c0375fb0-794c-42de-be09-d08163700cfa,Sims LLC,2023-05-01 06:05:34,b027761a-38fc-4640-a5c2-885d7514929f,approved,default,2023-05-24 22:29:51,91732480267,buyer,Ronnie Hansen,foods
+39137181-217f-4ab5-a64a-f255fe9f66ae,Thomas Inc,2023-03-24 06:21:37,ff190f8f-e4bf-4d0b-98e5-eca07d77ef57,pending,pre_registered,2023-12-27 23:17:45,85838704338,buyer,Thomas Estrada,construction
+37546e76-a12c-4e12-a7a2-cf223efbafdf,"White, Clarke and Gomez",2023-05-06 17:15:05,f6286e61-653c-4325-8bd2-8a7b7ba29132,pending,default,2023-07-29 02:40:45,51459576139,buyer,Deborah Mills,construction
+12eb58ca-70da-446b-8d7e-2a49d9e84d3d,Glass-Beck,2023-02-02 17:54:14,93d6e158-9e5b-4e61-b9c1-83610b11d33a,approved,pre_registered,2023-02-21 05:12:08,14060159990,buyer,Wesley May,construction
+259cd9bf-c950-4dbd-98f2-48dfdfb8ec75,Wong-Carter,2023-07-05 01:05:40,78535890-5baa-43ed-bde0-feb1cd1738fe,pending,pre_registered,2023-10-07 14:55:34,51291111055,buyer,Richard Garcia,construction
+fdbc72ba-110b-4791-9ed4-4f6524bf6b21,Francis Group,2023-12-11 22:29:55,82fbd58a-1815-4a4f-ab56-8f57db063fa8,pending,pre_registered,2023-12-16 13:32:35,76048162368,seller,Hannah Lozano,foods
+f4c4b5c5-3f5d-4c32-8b09-2a32745e7228,Olsen Inc,2023-03-06 14:43:17,2e399e64-3355-4342-af76-4fcc82a506f6,approved,pre_registered,2023-11-03 08:09:24,91119691479,seller,William Crawford,foods
+7f9380aa-3d6b-4deb-b2a2-040537c46a37,Price-Hopkins,2023-04-10 09:22:58,5fc906a6-e277-46a2-8052-3076cc55a6e4,pending,default,2023-10-08 21:59:44,37677012663,seller,Walter Anderson,foods
+fe5a91e4-1e55-4a78-89d9-867c1c662c5f,Shaffer Inc,2023-08-10 01:39:56,af172224-75c0-4d14-aba9-c5d621b574ee,approved,default,2023-09-15 16:40:31,34291173534,buyer,Scott Love,construction
+faaadc94-6ca2-4639-9350-9b8f6c3668a2,Cross-Wood,2023-10-02 09:29:07,c3d9d864-9b57-4c64-91c3-ac7abdcde637,approved,default,2023-11-11 01:33:54,26681030262,seller,David Weber,foods
+58dc30e9-358b-4a3a-8f85-2bc5169d9493,Freeman-Finley,2023-10-01 01:07:32,2515039e-7226-435a-bd75-0be682ceabff,pending,pre_registered,2023-11-26 13:56:46,25609502152,seller,Michael Burgess,construction
+d645a7c2-31b7-41f2-869f-6719761afa75,Stanton LLC,2023-04-11 10:43:44,3025b27a-d2ea-4c91-8c32-5cf7d578d6b0,approved,default,2023-10-07 06:27:51,10784681257,buyer,Kevin Quinn,foods
+ed9d2c76-8564-4b58-a6cc-534f8089215e,Robles Ltd,2023-03-17 20:57:35,bb619170-6db7-4c40-adeb-7a549007b0d2,approved,default,2023-09-14 20:14:21,95459843757,seller,Erika Taylor,foods
+80d23c56-c826-45cc-b71e-b891be6f4a93,Kelly-Turner,2023-02-09 18:15:45,a15f79da-ac04-4deb-ac14-6963902d9fe5,approved,default,2023-05-13 11:40:32,33918622232,buyer,Brenda Simmons DVM,construction
+c3783a85-c36a-4faa-9340-d40a4ea0e8ac,"Bennett, Mckee and Johnson",2023-03-26 08:26:09,2cd0df14-9f74-4e6c-a08b-c889975595d0,pending,pre_registered,2023-12-17 09:47:32,65584584366,seller,Heather Taylor,foods
+22d3f69a-654b-4b77-bafa-9c02fe1481d7,Harvey Inc,2023-09-01 21:39:02,8665a4c3-ddbc-4adf-9619-f4a92e8f84a5,approved,default,2023-10-22 06:38:56,35597996381,buyer,Paul Davis,construction
+20e54bd7-dcbb-4067-bdb9-323e002c6971,Freeman-Mitchell,2023-06-16 15:52:56,0019b608-843d-4520-83c8-ad0c7b9dd486,pending,pre_registered,2023-08-03 14:51:48,70120709163,seller,Taylor Stewart,construction
+5bf81249-7a4c-4a40-a23e-316e5e15b6b8,Wilson-Stewart,2023-05-24 20:50:06,a1ff388a-7f12-4bf4-a68c-cec7dbbfebe5,pending,default,2023-08-29 17:06:06,20012795222,seller,Victoria Dean,foods
+59007bd2-f97e-482c-bf68-fcd0986d6444,Williamson Inc,2023-06-29 04:49:54,46088f94-c514-479d-a89c-ee585d0bba52,approved,default,2023-07-05 11:31:31,99427666037,seller,Latoya Smith,construction
+b2122032-1831-4b3f-b1d8-7e5d6b9bd1f6,"Jones, Flowers and Barry",2023-05-25 01:40:49,897115ec-39a0-4c0e-824d-acbba615aa20,pending,default,2023-10-26 06:46:18,44613127135,seller,Louis Berg,foods
+75e2ce64-a0e6-44e8-848e-6c5d9cddaf43,Matthews-Wallace,2023-08-18 07:58:49,3be7ebee-dd07-4268-99d5-d8e3c116f813,approved,pre_registered,2023-09-10 21:06:34,77971991326,buyer,Michael Mendoza,foods
+b4f5e897-a72c-4f85-91ff-952bab7ee1c9,Calderon-Nelson,2023-02-13 01:53:09,d1a6ee81-3699-4b9c-9146-52ac01f4f528,pending,pre_registered,2023-12-12 03:16:58,93914775734,seller,Jennifer Cook,construction
+1cfe230a-84bc-46c7-a218-8237b948d048,Yates-Patrick,2023-07-25 00:16:05,3b982d82-4db0-4843-9309-a8cbb4f94023,pending,default,2023-10-17 22:30:10,84698459034,buyer,Jennifer Fields,foods
+58d4dfde-8432-42a5-a253-504b2a918916,Hoffman-Evans,2023-03-13 03:01:02,aaa068c3-20d4-4854-b6a4-f77435755253,approved,pre_registered,2023-09-23 09:54:41,97721051352,seller,Karen Johnson,foods
+4a6b6878-671f-4646-a647-e49e0a1c1732,"Gonzalez, Nelson and Williams",2023-04-11 00:46:05,26d398e2-533f-4e2a-8c48-7912fab73272,approved,pre_registered,2023-07-24 17:43:13,18280089312,buyer,Timothy Armstrong,construction
+f74967eb-9573-4773-a92b-dc00303c6ef4,"Riggs, Macias and Mitchell",2023-01-10 19:14:05,df825e74-9b90-43ec-93c3-43793c36eb6a,pending,pre_registered,2023-07-27 08:43:58,53579459289,seller,Michele Adams,construction
+f2f09fd8-ae9a-4ee6-a810-cfb2be84b5ab,Salas-Mccarthy,2023-01-21 11:34:45,69ad955a-c4d1-4e09-a598-45fe50eb8abc,approved,default,2023-04-22 01:48:24,96490148161,buyer,Jessica Mays,construction
+3a2def79-1e76-460e-bea8-70cd3d318dde,"Walker, Howard and Knight",2023-08-23 03:54:09,6925ee03-c14f-449e-a82f-646143c3148a,pending,pre_registered,2023-12-16 16:15:42,65907277557,buyer,Carol Mcknight,construction
+da1329dd-00e0-44fc-8291-27443c0cb54d,Lopez Ltd,2023-08-18 21:39:27,e4ea9d48-4a50-416e-83d8-ace2d1e80863,approved,default,2023-12-26 15:43:57,17953717013,seller,David Morrow,construction
+bd42b2e4-d0db-4da0-a756-935022014c20,Walker Inc,2023-12-12 15:54:21,752f66bf-4018-4ab6-8269-8a301fc150c9,approved,pre_registered,2023-12-26 06:52:11,83928993354,buyer,Michael Gutierrez,foods
+bac75c71-5219-49a9-abf8-2e1d9e03ce12,Pena-Guerrero,2023-12-29 03:42:15,e2f658f7-8657-4c29-86e1-e5336b6f08ed,approved,pre_registered,2023-12-30 07:09:39,25098761737,seller,David Martinez,foods
+2dd8b411-9e52-4c9b-b1d0-d0a75aff33d2,Rose-Garrett,2023-11-11 15:51:25,79a1c69e-0f03-4d12-88cb-542ff536268c,pending,default,2023-12-30 00:35:17,90183301537,seller,Patrick Wood,construction
+46d0382e-04bb-4eb5-b6e9-7ca8dacccbb3,Nunez PLC,2023-12-15 15:39:47,0357283b-dd8e-443e-bd74-d14483588865,pending,default,2023-12-25 18:03:47,56525510537,buyer,Larry Haynes,foods
+db8f696f-f33d-4ed2-83a3-0f7cb79cf2c9,Ray Inc,2023-01-15 15:58:59,12eb6350-7974-4ce6-a355-d1c005836ef0,pending,default,2023-08-12 08:20:13,36175489737,buyer,Jeffrey White MD,construction
+638e3f55-86fb-4379-a46c-8fa909f7f3bb,Marquez-Stewart,2023-04-11 21:15:35,e5d4826b-608e-4d73-9123-6067f66a04fd,approved,default,2023-06-02 10:06:43,79987780915,seller,David Rose,foods
+c3aae683-2620-4399-b888-3cee5a56ff79,Ingram-Bryan,2023-03-28 09:54:30,57f9d20c-3e8b-4739-ac28-1606bffde185,pending,default,2023-09-16 04:15:28,17552700434,seller,Melissa Davidson,foods
+54a787d7-885a-49e0-ba38-39538f9f2932,"Moses, Lawrence and Morgan",2023-01-13 17:21:06,7849ec6a-894f-4a90-869c-d4f19dd07913,pending,default,2023-02-26 09:10:46,54383655845,seller,Curtis Greene,foods
+72b82cc0-663e-4fda-9275-e6cdecddd904,"Higgins, Garcia and Ferrell",2023-07-09 12:11:24,afba5ed1-4af2-42b1-9145-84e685748f4a,approved,pre_registered,2023-11-14 22:22:52,23066937759,seller,Aaron Cook DVM,construction
+c6530782-3763-4ad3-bfa9-182792c738b4,"Stafford, Mahoney and Anderson",2023-09-12 23:25:01,663d1e72-f561-4424-ad03-30ec31637b03,pending,pre_registered,2023-11-20 20:42:32,38699400048,buyer,Gregory Rose,construction
+53751a07-631b-4221-a515-4c75cc5aba1c,Schaefer-Castillo,2023-11-16 06:19:47,5f6c826a-1765-4fb6-add6-68e940fe65b1,pending,default,2023-11-25 15:05:35,31602213812,seller,Lauren Anderson,foods
+d432659e-9403-4602-b9b0-954f01f3ec43,"Snyder, Cooper and Dawson",2023-12-23 17:01:23,7b2f880c-dd19-41ac-9dfc-78a3e1f83b57,pending,default,2023-12-28 08:18:42,88772872230,buyer,Kenneth Jimenez,foods
+47fa7d6f-f033-49d4-9077-146f4603cb67,"Smith, Rodgers and Landry",2023-05-20 23:16:42,d70b486a-fa9a-4b50-845e-01ed27f75241,pending,pre_registered,2023-08-08 07:02:29,65761213148,buyer,Miguel Barnes,foods
+da05e005-ff24-43df-876a-a8d94fa17620,Hicks-Carter,2023-12-03 06:18:45,99bb3003-78ec-4374-a357-bd97f38b0e38,approved,default,2023-12-19 00:43:52,96490217403,buyer,Renee Martinez,construction
+b4f54707-61cd-475a-a44f-166417393673,"Williams, Leonard and Moore",2023-08-30 09:06:22,e325ce9e-6a29-4994-a928-4b2bfe8d0067,approved,pre_registered,2023-09-05 23:35:24,21342300895,buyer,Nathan Thomas,construction
+b97a016a-ad93-4e67-84a5-3d6f04ab7d21,Fisher-Wheeler,2023-06-06 07:50:03,d60b9ab8-8d01-4e42-9aa3-f4bf1e9a0d37,approved,default,2023-06-10 05:10:52,85267812454,seller,Tracy Garcia,construction
+50db8ba9-9b5e-4444-9c10-6e8c7e3b9e9f,Martinez Ltd,2023-10-19 22:20:44,6084f1d6-6f4f-498d-a0ac-fb962c8a696c,approved,pre_registered,2023-12-23 12:53:31,51201964238,buyer,Elizabeth Lewis,foods
+e57bfa42-cd9e-401d-9ab6-08a1216351ba,Carpenter-Johnson,2023-02-16 22:08:30,147a38d6-b182-4e10-93f6-cef4ef0a78d3,approved,pre_registered,2023-10-06 12:05:29,39505595265,seller,Tyler Keith,foods
+b1d86139-a1b2-4a8f-9dce-fe4f50ef1636,Goodman Group,2023-06-20 10:02:56,c1bf4ce3-6d7f-4bca-99a7-72f9a6b46b59,approved,pre_registered,2023-12-14 12:03:00,90568362961,seller,Tamara Tyler,foods
+e10d2370-5246-4eac-9e6e-31f8299c3ef9,Salazar Group,2023-07-02 23:40:26,95719972-03ea-446b-8e7c-0bec948f87ae,pending,pre_registered,2023-08-28 09:19:14,11946653489,seller,April Merritt,construction
+fe9f1a39-236c-465c-a2ee-0acefaca4b31,Weeks-Colon,2023-07-06 20:42:11,f2200ee6-512c-49b7-b7f5-96f3cd8c87c6,approved,default,2023-09-17 02:48:13,88109538959,seller,Michael Lewis,foods
+c7c79e18-7d0c-43b3-bf8b-ad7f820d772a,"Bryant, Burnett and Roman",2023-10-24 11:46:31,8bd9a4fe-cd92-44a1-a1b8-1ba6bb31592a,approved,default,2023-11-14 09:52:58,54887928282,seller,Rebecca Thompson,construction
+bbf28559-d2c2-4468-a6e8-f647152ff545,Vazquez LLC,2023-01-09 04:49:03,cbc9b667-127f-4ced-a651-90361e263138,pending,default,2023-08-01 18:46:39,19982625283,buyer,William Graham,foods
+60043980-06f6-4ce3-9fbc-abdb4b27a798,"Francis, Stewart and Howell",2023-03-10 23:13:50,93f11f3f-958c-4546-8280-7863077f9ddd,pending,pre_registered,2023-11-27 17:48:46,79582932971,buyer,Timothy Johnson,construction
+3937146e-c26c-47b4-976a-ce0d78fd20df,Reed-Weaver,2023-04-03 03:58:25,a4e3a979-b6b7-4b1a-800a-ac85110247e4,pending,default,2023-11-11 13:48:36,96943014599,buyer,Brittany Garcia,foods
+51b39f5f-6440-48b0-acc6-07a211956926,Rodriguez PLC,2023-08-11 03:56:52,14ff5752-90d9-41ca-8952-7ff53408441e,approved,pre_registered,2023-11-10 12:34:38,43858998922,seller,Shawn Carter MD,foods
+dcd02454-b73a-4807-a938-099f7c703e38,Sellers Ltd,2023-11-19 17:30:12,e8a7a1bc-aed8-42b4-b1b6-444141a28bbc,approved,pre_registered,2023-12-16 04:32:12,25959927109,buyer,Christine Davis,foods
+28754b4f-6542-4658-9dbf-97d8842bec24,"Stein, Hoffman and Juarez",2023-07-02 23:43:12,b7b8bfef-f5f8-40dd-90af-39742e7ff623,approved,default,2023-08-25 16:47:34,80279211563,buyer,Mrs. Kendra Kelly,construction
+11ec2de0-27c3-4293-81f5-5586b9b792e0,Hudson PLC,2023-05-11 01:45:56,f69c91dd-5798-45df-a44b-141299c0fcf3,approved,default,2023-12-17 05:38:18,42624981467,buyer,Shannon Duarte,construction
+f2aecbc5-c6cc-4bb3-ad57-cc8a59c8da65,"Vasquez, Cox and Wells",2023-03-29 19:30:24,7758a70d-b89a-4c10-bdb9-50a35a7e2dd2,approved,pre_registered,2023-09-20 18:50:00,49728393436,buyer,Keith Graham Jr.,construction
+bf89318c-0087-4e2f-b768-029ba6a4f0cd,Lee-Ortega,2023-03-03 09:46:58,edf28e11-8d14-4ca5-8f97-80294c46d299,pending,pre_registered,2023-10-21 23:18:44,71022719662,buyer,Cindy Murray,construction
+12c32742-8acd-4e15-8b3d-8ad87140512e,White-Guzman,2023-08-30 00:15:53,48bd61c0-dc0d-4cfa-8644-53d8d774b4a2,approved,default,2023-11-06 11:07:09,19679398967,buyer,Jonathan Grant,foods
+d46bb324-d64a-441c-92da-28a2d0c67e3b,Hoffman Group,2023-08-08 23:08:35,aa6074d9-4b20-45a7-8b0d-8336a845b181,approved,pre_registered,2023-12-06 07:46:57,26729131602,seller,Kyle Horton,foods
+6b0600ab-4296-457a-bf33-77a67b8bdef2,Johnson LLC,2023-01-04 13:52:55,e42b6c0c-3919-45b2-a085-2b11301ea9d3,pending,default,2023-12-01 22:56:40,13313354990,buyer,Michael Howard,construction
+f0146ffd-cbc8-4103-bbd4-0ed811bd2369,"Rangel, Stark and Kemp",2023-01-29 17:31:20,c1f40094-5f3a-4689-b18c-692fcb81ce26,pending,default,2023-08-07 10:46:36,67896181718,buyer,Stephanie Oneill,construction
+2e060bf2-8439-4974-b195-9d8275258540,Chase-Griffin,2023-01-31 00:32:17,d4ac5d8d-156e-4d31-81e8-1a5fdf29fb83,pending,default,2023-12-30 11:40:00,81215591292,buyer,Shawn Martin,foods
+f867d0a3-5acf-433c-b48a-bf6a2420a4f8,Clark-Moore,2023-03-31 10:05:34,905f30be-7cd5-4100-acf7-8214a787ebc4,approved,pre_registered,2023-05-12 12:35:59,34373656749,seller,Kayla Bryant,construction
+59bed68d-36c2-4178-8444-760922443121,"Tyler, Potter and White",2023-07-03 12:29:00,23d84dee-2781-4839-b681-3bd8d3cfe1b0,approved,pre_registered,2023-11-22 01:29:37,58337657498,buyer,Joe Reid,foods
+be88e63c-2541-4434-94a1-6275c6cded72,Anderson-Gregory,2023-07-10 05:35:10,26187916-1dfb-4c3a-85ce-31dc391f2023,approved,pre_registered,2023-12-29 22:04:46,59050431701,buyer,Mr. Justin Mckay,foods
+f058ef78-b206-4ba9-8953-9ea47de093e3,Hernandez Inc,2023-02-05 15:55:57,c6f272dc-27a7-4a22-8339-c93056601e14,approved,default,2023-04-02 09:26:33,59380004788,seller,Courtney Black,construction
+ff0b8c9c-d2b4-46d0-b8ea-5c1ee3f98ce4,"Monroe, Hart and Mcdonald",2023-03-27 13:07:50,f480cfc5-4d2c-41b7-90a2-1608ad116a2d,approved,default,2023-05-28 04:32:43,38786800843,buyer,Rita Alexander,foods
+af502cf8-26ee-48c0-a10e-939e1c79b1d4,Haynes-Griffin,2023-09-03 19:36:51,98ab425a-94b9-4bd1-be6c-5ae0572e33ce,pending,default,2023-12-16 18:23:19,41979967841,buyer,Linda Flores,foods
+1ba89c7a-fa16-4610-8d3b-6e37f30e5d3d,Bailey Inc,2023-04-02 19:41:56,ccd136a0-c0d7-42f8-a85c-97f9e035e17a,pending,pre_registered,2023-09-17 04:16:07,70530391051,buyer,Monique Diaz,foods
+0682b2ab-6260-4e5b-8b85-c8e1eac64af7,Rodriguez and Sons,2023-04-22 07:20:13,c7df667c-ebd2-4712-91a8-fbdb021317c8,approved,pre_registered,2023-08-09 13:04:48,91190937036,buyer,Christy Patterson,construction
+b6551bf5-5576-4e47-a799-04e9792fb7c3,"Levy, Nelson and Keith",2023-04-17 22:11:40,b16f5a7b-134e-48e6-a371-c06ac437e22e,approved,default,2023-06-30 20:28:43,53473190904,buyer,Julie Montgomery,construction
+b10a2cfc-f002-4145-a41d-eae8680a0f4c,Smith-Hicks,2023-10-15 05:50:06,7380d036-d8a2-4391-9790-ff20ce97f8d7,approved,default,2023-12-09 14:46:21,92617813272,buyer,Madison Bell,foods
+df710184-0666-458a-b4fd-707701d7b23d,Hudson Inc,2023-05-15 13:42:56,f356884a-ded9-4f2e-8f9e-cef333287087,approved,pre_registered,2023-05-28 11:01:20,51774867935,buyer,Mark Holder,construction
+b31713fe-ece3-4603-90df-8105aeae8514,Fritz-Lopez,2023-02-02 01:41:31,6f1d5e0c-a921-4210-98fb-d139eadae883,pending,pre_registered,2023-07-27 07:12:30,71784904917,buyer,Brian Berry,foods
+c51d0229-a71a-445e-a87f-66008bae061f,Kim-Hart,2023-09-28 11:54:48,af567c74-60c8-435d-87bb-191da00ea3ed,pending,default,2023-11-01 09:24:09,17482767357,seller,Wendy Rodriguez,construction
