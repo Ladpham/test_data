@@ -16,21 +16,10 @@ jobs:
     - name: Set CSV_FILENAME
       run: echo "CSV_FILENAME=dados_dash.csv" >> $GITHUB_ENV
 
-    - name: Set up Python
-      uses: actions/setup-python@v2
-      with:
-        python-version: "3.x"
-
     - name: Download Google Sheets data
-      env:
-        SHEETS_CSV_URL: ${{ secrets.SHEETS_CSV_URL }}
       run: |
+        SHEETS_CSV_URL="https://docs.google.com/spreadsheets/d/e/2PACX-1vQmGdRNuTShB36Kg45u87ce0iqU0_QBHZbgZ0AISrLveKbSmdN9qcW_WNS_7ztajc8iDhuNKiXsO-yy/pub?output=csv"
         curl -L -o "$CSV_FILENAME" "$SHEETS_CSV_URL"
-
-    - name: Verify SHEETS_CSV_URL
-      env:
-        SHEETS_CSV_URL: ${{ secrets.SHEETS_CSV_URL }}
-      run: echo "SHEETS_CSV_URL: $SHEETS_CSV_URL"
 
     - name: Commit changes
       run: |
