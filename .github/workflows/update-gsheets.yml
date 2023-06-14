@@ -12,6 +12,8 @@ jobs:
     steps:
     - name: Check out the repository
       uses: actions/checkout@v2
+      with:
+        token: ${{ secrets.GH_PAT }}
 
     - name: Set CSV_FILENAME
       run: echo "CSV_FILENAME=dados_dash.csv" >> $GITHUB_ENV
