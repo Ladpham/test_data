@@ -3,7 +3,7 @@ name: Update Google Sheets
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 0 * * *'
+    - cron: "0 0 * * *"
 
 jobs:
   update:
@@ -19,21 +19,24 @@ jobs:
     - name: Set up Python
       uses: actions/setup-python@v2
       with:
-        python-version: '3.x'
+        python-version: "3.x"
 
     - name: Download Google Sheets data
       env:
         SHEETS_CSV_URL: ${{ secrets.SHEETS_CSV_URL }}
       run: |
-        curl "$SHEETS_CSV_URL" --location --remote-name "$CSV_FILENAME"
+        curl -L -o "$CSV_FILENAME" "$SHEETS_CSV_URL"
 
     - name: Commit changes
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
         git add "$CSV_FILENAME"
-        if git status | grep new\ file || git status | grep modified
+        git_status=$(git status)
+        if [[ $git_status == *"Changes to be committed"* ]]
         then
           git commit -m "Update $CSV_FILENAME via GitHub Actions" -a
           git push
+        else
+          echo "No changes detected"
         fi
