@@ -21,16 +21,22 @@ jobs:
         SHEETS_CSV_URL="https://docs.google.com/spreadsheets/d/e/2PACX-1vQmGdRNuTShB36Kg45u87ce0iqU0_QBHZbgZ0AISrLveKbSmdN9qcW_WNS_7ztajc8iDhuNKiXsO-yy/pub?output=csv"
         curl -L -o "$CSV_FILENAME" "$SHEETS_CSV_URL"
 
-    - name: Commit changes
+    - name: Set up Git credentials
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
+
+    - name: Commit changes
+      env:
+        GH_PAT: ${{ secrets.GH_PAT }}
+      run: |
         git add "$CSV_FILENAME"
         git_status=$(git status)
         if [[ $git_status == *"Changes to be committed"* ]]
         then
           git commit -m "Update $CSV_FILENAME via GitHub Actions" -a
-          git push
+          REMOTE_URL="https://${GH_PAT}@github.com/Ladpham/test_data.git"
+          git push "$REMOTE_URL" HEAD:main
         else
           echo "No changes detected"
         fi
