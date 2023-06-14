@@ -28,9 +28,9 @@ jobs:
         curl -L -o "$CSV_FILENAME" "$SHEETS_CSV_URL"
 
     - name: Verify SHEETS_CSV_URL
-      run: echo "SHEETS_CSV_URL: $SHEETS_CSV_URL"
       env:
         SHEETS_CSV_URL: ${{ secrets.SHEETS_CSV_URL }}
+      run: echo "SHEETS_CSV_URL: $SHEETS_CSV_URL"
 
     - name: Commit changes
       run: |
