@@ -1,0 +1,39 @@
+name: Update Google Sheets
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 0 * * *'
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Check out the repository
+      uses: actions/checkout@v2
+
+    - name: Set CSV_FILENAME
+      run: echo "CSV_FILENAME=dados_dash.csv" >> $GITHUB_ENV
+
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.x'
+
+    - name: Download Google Sheets data
+      env:
+        SHEETS_CSV_URL: ${{ secrets.SHEETS_CSV_URL }}
+      run: |
+        curl "$SHEETS_CSV_URL" --location --remote-name "$CSV_FILENAME"
+
+    - name: Commit changes
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add "$CSV_FILENAME"
+        if git status | grep new\ file || git status | grep modified
+        then
+          git commit -m "Update $CSV_FILENAME via GitHub Actions" -a
+          git push
+        fi
