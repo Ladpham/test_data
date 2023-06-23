@@ -1,44 +1,44 @@
-name: Update Google Sheets
+# name: Update Google Sheets
 
-on:
-  workflow_dispatch:
-  schedule:
-    - cron: "0 0 * * *"
+# on:
+#   workflow_dispatch:
+#   schedule:
+#     - cron: "0 0 * * *"
 
-jobs:
-  update:
-    runs-on: ubuntu-latest
+# jobs:
+#   update:
+#     runs-on: ubuntu-latest
 
-    steps:
-    - name: Check out the repository
-      uses: actions/checkout@v2
-      with:
-        token: ${{ secrets.GH_PAT }}
+#     steps:
+#     - name: Check out the repository
+#       uses: actions/checkout@v2
+#       with:
+#         token: ${{ secrets.GH_PAT }}
 
-    - name: Set CSV_FILENAME
-      run: echo "CSV_FILENAME=dados_dash.csv" >> $GITHUB_ENV
+#     - name: Set CSV_FILENAME
+#       run: echo "CSV_FILENAME=dados_dash.csv" >> $GITHUB_ENV
 
-    - name: Download Google Sheets data
-      run: |
-        SHEETS_CSV_URL="https://docs.google.com/spreadsheets/d/e/2PACX-1vQmGdRNuTShB36Kg45u87ce0iqU0_QBHZbgZ0AISrLveKbSmdN9qcW_WNS_7ztajc8iDhuNKiXsO-yy/pub?output=csv"
-        curl -L -o "$CSV_FILENAME" "$SHEETS_CSV_URL"
+#     - name: Download Google Sheets data
+#       run: |
+#         SHEETS_CSV_URL="https://docs.google.com/spreadsheets/d/e/2PACX-1vQmGdRNuTShB36Kg45u87ce0iqU0_QBHZbgZ0AISrLveKbSmdN9qcW_WNS_7ztajc8iDhuNKiXsO-yy/pub?output=csv"
+#         curl -L -o "$CSV_FILENAME" "$SHEETS_CSV_URL"
 
-    - name: Set up Git credentials
-      run: |
-        git config --local user.email "action@github.com"
-        git config --local user.name "GitHub Action"
+#     - name: Set up Git credentials
+#       run: |
+#         git config --local user.email "action@github.com"
+#         git config --local user.name "GitHub Action"
 
-    - name: Commit changes
-      env:
-        GH_PAT: ${{ secrets.GH_PAT }}
-      run: |
-        git add "$CSV_FILENAME"
-        git_status=$(git status)
-        if [[ $git_status == *"Changes to be committed"* ]]
-        then
-          git commit -m "Update $CSV_FILENAME via GitHub Actions" -a
-          REMOTE_URL="https://${GH_PAT}@github.com/Ladpham/test_data.git"
-          git push "$REMOTE_URL" HEAD:main
-        else
-          echo "No changes detected"
-        fi
+#     - name: Commit changes
+#       env:
+#         GH_PAT: ${{ secrets.GH_PAT }}
+#       run: |
+#         git add "$CSV_FILENAME"
+#         git_status=$(git status)
+#         if [[ $git_status == *"Changes to be committed"* ]]
+#         then
+#           git commit -m "Update $CSV_FILENAME via GitHub Actions" -a
+#           REMOTE_URL="https://${GH_PAT}@github.com/Ladpham/test_data.git"
+#           git push "$REMOTE_URL" HEAD:main
+#         else
+#           echo "No changes detected"
+#         fi
